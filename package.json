@@ -1,0 +1,15 @@
+{
+  "name": "invariantshrink-pbt",
+  "version": "1.0.0",
+  "description": "Property-based testing engine with integrated pseudorandom generators (integers, floats, unicode strings, nested JSON objects, arrays) and binary search counterexample shrinking. Systematically minimizes failing inputs to isolate the minimal reproduction bounds.",
+  "main": "src/index.js",
+  "bin": {
+    "invariant-shrink": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node tests/run_tests.js",
+    "start": "node src/index.js"
+  },
+  "author": "Ali Nurettin Demir (@alinurettin)",
+  "license": "MIT"
+}

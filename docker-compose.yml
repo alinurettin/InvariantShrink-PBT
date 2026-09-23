@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  invariantshrink-pbt:
+    build: .
+    ports:
+      - "7073:7073"
+    environment:
+      - PORT=7073
